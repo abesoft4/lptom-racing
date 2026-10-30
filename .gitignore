@@ -12,3 +12,4 @@ results_test/
 .DS_Store
 *.png
 *.gif
+!docs/*.gif

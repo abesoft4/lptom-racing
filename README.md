@@ -3,6 +3,10 @@
 Code, benchmark rivals and raw results for the paper
 *Language-Primed Simulation Theory of Mind for Adaptive Head-to-Head Autonomous Racing*.
 
+<p align="center">
+  <img src="docs/scene_animation.gif" alt="LP-ToM imagining the rival's replies to three candidate manoeuvres" width="720">
+</p>
+<p align="center"><em>LP-ToM imagines the rival's replies to each candidate manoeuvre under styles drawn from its belief and picks the best one (seed-301 models, held-out track 101).</em></p>
 
 ## Contents
 
