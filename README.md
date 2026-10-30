@@ -1,10 +1,8 @@
-# LP-ToM: Language-Primed Simulation Theory of Mind for Adaptive Head-to-Head Autonomous Racing
+#Language-Primed Simulation Theory of Mind for Adaptive Head-to-Head Autonomous Racing
 
 Code, benchmark rivals and raw results for the paper
 *Language-Primed Simulation Theory of Mind for Adaptive Head-to-Head Autonomous Racing*.
 
-Everything is pure Python on NumPy, SciPy and Matplotlib. It needs no GPU, no deep-learning
-framework and no downloaded weights, and it runs on Windows, macOS and Linux.
 
 ## Contents
 
@@ -116,17 +114,13 @@ ego car won).
 | `lptom/baselines.py` | PPO racer and LIAM-style opponent model |
 | `lptom/autograd.py`, `lptom/nn.py` | small reverse-mode autodiff core and network layers |
 
-## Privileged information
+## Information
 
 Rival style parameters and simulated counterfactual outcomes are used only for training.
 At test time LP-ToM observes kinematics and the radio message. It imagines the rival with the
 learned rival model and its online residual, never with the simulator's rival policy. The
 agents `oracleQ`, `sim-oracle` and `sim-truepolicy` read the true rival and serve only as
 upper bounds.
-
-## Citation
-
-See `CITATION.cff`. Please cite the paper if you use the code or the benchmark rivals.
 
 ## License
 
