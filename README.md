@@ -1,4 +1,4 @@
-#Language-Primed Simulation Theory of Mind for Adaptive Head-to-Head Autonomous Racing
+# Language-Primed Simulation Theory of Mind for Adaptive Head-to-Head Autonomous Racing
 
 Code, benchmark rivals and raw results for the paper
 *Language-Primed Simulation Theory of Mind for Adaptive Head-to-Head Autonomous Racing*.
