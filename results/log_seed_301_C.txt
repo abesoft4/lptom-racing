@@ -1,0 +1,30 @@
+[seed 301] loaded models of part A
+[seed 301] oof        random          0.260 0.323 0.267 0.323
+[seed 301] oof        rule            0.450 0.423 0.437 0.423
+[seed 301] oof        agnosticQ       0.523 0.517 0.507 0.503
+[seed 301] oof        ppo             0.547 0.503 0.533 0.503
+[seed 301] oof        liam            0.517 0.527 0.540 0.537
+[seed 301] oof        gt-maxmin       0.500 0.517 0.497 0.477
+[seed 301] oof        sim-prior       0.470 0.463 0.480 0.453
+[seed 301] oof        sim-bpr         0.543 0.513 0.527 0.490
+[seed 301] oof        lptom           0.573 0.583 0.550 0.547
+[seed 301] oof        lptom-structured 0.573 0.527 0.537 0.540
+[seed 301] oof        lptom-noresid   0.570 0.530 0.543 0.530
+[seed 301] oof        sim-truepolicy  0.687 0.680 0.657 0.677
+[seed 301] robust     sim-prior|mm-moderate 0.773 0.757 0.763 0.790
+[seed 301] robust     lptom|mm-moderate 0.873 0.883 0.870 0.903
+[seed 301] robust     sim-oracle|mm-moderate 0.863 0.857 0.880 0.873
+[seed 301] robust     sim-prior|mm-strong 0.753 0.747 0.753 0.767
+[seed 301] robust     lptom|mm-strong 0.860 0.853 0.867 0.873
+[seed 301] robust     sim-oracle|mm-strong 0.830 0.817 0.870 0.847
+[seed 301] robust     agnosticQ|noise1 0.770 0.790 0.770 0.793
+[seed 301] robust     ppo|noise1      0.743 0.797 0.807 0.820
+[seed 301] robust     sim-prior|noise1 0.760 0.720 0.743 0.763
+[seed 301] robust     lptom|noise1    0.867 0.880 0.890 0.877
+[seed 301] robust     sim-oracle|noise1 0.843 0.883 0.893 0.850
+[seed 301] robust     agnosticQ|noise2 0.760 0.787 0.747 0.807
+[seed 301] robust     ppo|noise2      0.747 0.793 0.810 0.813
+[seed 301] robust     sim-prior|noise2 0.727 0.707 0.707 0.743
+[seed 301] robust     lptom|noise2    0.847 0.850 0.860 0.860
+[seed 301] robust     sim-oracle|noise2 0.830 0.863 0.850 0.840
+[seed 301] done 1764 s

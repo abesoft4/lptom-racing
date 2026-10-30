@@ -1,0 +1,192 @@
+seeds [301, 302, 303, 304, 305, 306, 307, 308, 309, 310]
+{
+ "seen": {
+  "random": 0.459,
+  "rule": 0.632,
+  "agnosticQ": 0.788,
+  "ppo": 0.807,
+  "liam": 0.797,
+  "gt-maxmin": 0.743,
+  "sim-prior": 0.758,
+  "sim-bpr": 0.867,
+  "lptom": 0.905,
+  "lptom-structured": 0.91,
+  "lptom-nolang": 0.904,
+  "lptom-noresid": 0.908,
+  "lptom-acc": 0.91,
+  "lptom-const": 0.909,
+  "lptom-single": 0.908,
+  "lptom-amortised": 0.821,
+  "oracleQ": 0.826,
+  "sim-oracle": 0.91
+ },
+ "unseen": {
+  "random": 0.515,
+  "rule": 0.687,
+  "agnosticQ": 0.847,
+  "ppo": 0.849,
+  "liam": 0.852,
+  "gt-maxmin": 0.858,
+  "sim-prior": 0.892,
+  "sim-bpr": 0.919,
+  "lptom": 0.932,
+  "lptom-structured": 0.931,
+  "lptom-nolang": 0.93,
+  "lptom-noresid": 0.93,
+  "lptom-acc": 0.931,
+  "lptom-const": 0.931,
+  "lptom-single": 0.931,
+  "lptom-amortised": 0.852,
+  "oracleQ": 0.871,
+  "sim-oracle": 0.94
+ },
+ "switch": {
+  "random": 0.462,
+  "rule": 0.637,
+  "agnosticQ": 0.79,
+  "ppo": 0.786,
+  "liam": 0.786,
+  "gt-maxmin": 0.748,
+  "sim-prior": 0.751,
+  "sim-bpr": 0.867,
+  "lptom": 0.895,
+  "lptom-structured": 0.897,
+  "lptom-nolang": 0.895,
+  "lptom-noresid": 0.895,
+  "lptom-acc": 0.857,
+  "lptom-const": 0.891,
+  "lptom-single": 0.896,
+  "lptom-amortised": 0.806,
+  "oracleQ": 0.823,
+  "sim-oracle": 0.913
+ },
+ "midswitch": {
+  "random": 0.461,
+  "rule": 0.636,
+  "agnosticQ": 0.783,
+  "ppo": 0.784,
+  "liam": 0.782,
+  "gt-maxmin": 0.747,
+  "sim-prior": 0.76,
+  "sim-bpr": 0.865,
+  "lptom": 0.897,
+  "lptom-structured": 0.901,
+  "lptom-nolang": 0.895,
+  "lptom-noresid": 0.896,
+  "lptom-acc": 0.857,
+  "lptom-const": 0.889,
+  "lptom-single": 0.894,
+  "lptom-amortised": 0.806,
+  "oracleQ": 0.825,
+  "sim-oracle": 0.913
+ },
+ "misleading": {
+  "random": 0.457,
+  "rule": 0.638,
+  "agnosticQ": 0.793,
+  "ppo": 0.798,
+  "liam": 0.791,
+  "gt-maxmin": 0.735,
+  "sim-prior": 0.756,
+  "sim-bpr": 0.871,
+  "lptom": 0.908,
+  "lptom-structured": 0.909,
+  "lptom-nolang": 0.909,
+  "lptom-noresid": 0.904,
+  "lptom-acc": 0.909,
+  "lptom-const": 0.909,
+  "lptom-single": 0.91,
+  "lptom-amortised": 0.816,
+  "oracleQ": 0.823,
+  "sim-oracle": 0.914
+ },
+ "oof": {
+  "random": 0.296,
+  "rule": 0.402,
+  "agnosticQ": 0.494,
+  "ppo": 0.5,
+  "liam": 0.493,
+  "gt-maxmin": 0.476,
+  "sim-prior": 0.468,
+  "sim-bpr": 0.512,
+  "lptom": 0.538,
+  "lptom-structured": 0.516,
+  "lptom-noresid": 0.521,
+  "sim-truepolicy": 0.652,
+  "sim-oracle": 0.652
+ },
+ "robust": {
+  "sim-prior|mm-moderate": 0.765,
+  "lptom|mm-moderate": 0.876,
+  "sim-oracle|mm-moderate": 0.877,
+  "sim-prior|mm-strong": 0.76,
+  "lptom|mm-strong": 0.854,
+  "sim-oracle|mm-strong": 0.849,
+  "agnosticQ|noise1": 0.784,
+  "ppo|noise1": 0.808,
+  "sim-prior|noise1": 0.745,
+  "lptom|noise1": 0.874,
+  "sim-oracle|noise1": 0.867,
+  "agnosticQ|noise2": 0.785,
+  "ppo|noise2": 0.806,
+  "sim-prior|noise2": 0.73,
+  "lptom|noise2": 0.847,
+  "sim-oracle|noise2": 0.841
+ }
+}
+gap closed {'seen': 0.967, 'unseen': 0.833, 'switch': 0.894, 'midswitch': 0.899, 'misleading': 0.958, 'oof': 0.378}
+seen       lptom            vs agnosticQ          win    diff=+0.1169 ci=[+0.1101,+0.1237] dz=+10.12 p=1.4e-10 holm=6.98e-09 pw=0.00195
+unseen     lptom            vs agnosticQ          win    diff=+0.0849 ci=[+0.0781,+0.0933] dz=+6.53 p=6.87e-09 holm=1.99e-07 pw=0.00195
+switch     lptom            vs agnosticQ          win    diff=+0.1055 ci=[+0.0992,+0.1118] dz=+9.82 p=1.82e-10 holm=8.91e-09 pw=0.00195
+midswitch  lptom            vs agnosticQ          win    diff=+0.1140 ci=[+0.1094,+0.1192] dz=+13.76 p=8.93e-12 holm=4.73e-10 pw=0.00195
+misleading lptom            vs agnosticQ          win    diff=+0.1149 ci=[+0.1082,+0.1221] dz=+9.72 p=2.01e-10 holm=9.43e-09 pw=0.00195
+oof        lptom            vs agnosticQ          win    diff=+0.0438 ci=[+0.0368,+0.0511] dz=+3.55 p=1.35e-06 holm=1.89e-05 pw=0.00195
+seen       lptom            vs ppo                win    diff=+0.0988 ci=[+0.0926,+0.1054] dz=+9.10 p=3.6e-10 holm=1.59e-08 pw=0.00195
+unseen     lptom            vs ppo                win    diff=+0.0827 ci=[+0.0757,+0.0905] dz=+6.49 p=7.25e-09 holm=2.03e-07 pw=0.00195
+switch     lptom            vs ppo                win    diff=+0.1093 ci=[+0.1018,+0.1166] dz=+8.78 p=4.95e-10 holm=2.13e-08 pw=0.00195
+midswitch  lptom            vs ppo                win    diff=+0.1134 ci=[+0.1086,+0.1182] dz=+13.76 p=8.95e-12 holm=4.73e-10 pw=0.00195
+misleading lptom            vs ppo                win    diff=+0.1091 ci=[+0.1018,+0.1167] dz=+8.69 p=5.44e-10 holm=2.28e-08 pw=0.00195
+oof        lptom            vs ppo                win    diff=+0.0380 ci=[+0.0344,+0.0411] dz=+6.67 p=5.66e-09 holm=1.7e-07 pw=0.00195
+seen       lptom            vs liam               win    diff=+0.1083 ci=[+0.0999,+0.1177] dz=+7.05 p=3.5e-09 holm=1.15e-07 pw=0.00195
+unseen     lptom            vs liam               win    diff=+0.0805 ci=[+0.0730,+0.0891] dz=+5.85 p=1.81e-08 holm=4.51e-07 pw=0.00195
+switch     lptom            vs liam               win    diff=+0.1098 ci=[+0.1021,+0.1173] dz=+8.50 p=6.6e-10 holm=2.64e-08 pw=0.00195
+midswitch  lptom            vs liam               win    diff=+0.1153 ci=[+0.1113,+0.1197] dz=+16.16 p=2.12e-12 holm=1.16e-10 pw=0.00195
+misleading lptom            vs liam               win    diff=+0.1162 ci=[+0.1083,+0.1231] dz=+9.12 p=3.54e-10 holm=1.59e-08 pw=0.00195
+oof        lptom            vs liam               win    diff=+0.0447 ci=[+0.0380,+0.0517] dz=+3.78 p=7.9e-07 holm=1.34e-05 pw=0.00195
+seen       lptom            vs gt-maxmin          win    diff=+0.1625 ci=[+0.1562,+0.1692] dz=+14.53 p=5.47e-12 holm=2.95e-10 pw=0.00195
+unseen     lptom            vs gt-maxmin          win    diff=+0.0744 ci=[+0.0651,+0.0827] dz=+4.92 p=8.27e-08 holm=1.9e-06 pw=0.00195
+switch     lptom            vs gt-maxmin          win    diff=+0.1474 ci=[+0.1399,+0.1563] dz=+10.48 p=1.02e-10 holm=5.21e-09 pw=0.00195
+midswitch  lptom            vs gt-maxmin          win    diff=+0.1499 ci=[+0.1402,+0.1609] dz=+8.57 p=6.16e-10 holm=2.53e-08 pw=0.00195
+misleading lptom            vs gt-maxmin          win    diff=+0.1723 ci=[+0.1618,+0.1834] dz=+9.43 p=2.63e-10 holm=1.21e-08 pw=0.00195
+oof        lptom            vs gt-maxmin          win    diff=+0.0613 ci=[+0.0553,+0.0668] dz=+6.30 p=9.38e-09 holm=2.53e-07 pw=0.00195
+seen       lptom            vs sim-prior          win    diff=+0.1468 ci=[+0.1363,+0.1578] dz=+7.94 p=1.22e-09 holm=4.62e-08 pw=0.00195
+unseen     lptom            vs sim-prior          win    diff=+0.0399 ci=[+0.0348,+0.0452] dz=+4.48 p=1.84e-07 holm=3.83e-06 pw=0.00195
+switch     lptom            vs sim-prior          win    diff=+0.1448 ci=[+0.1341,+0.1568] dz=+7.58 p=1.83e-09 holm=6.76e-08 pw=0.00195
+midswitch  lptom            vs sim-prior          win    diff=+0.1368 ci=[+0.1287,+0.1452] dz=+9.77 p=1.91e-10 holm=9.16e-09 pw=0.00195
+misleading lptom            vs sim-prior          win    diff=+0.1513 ci=[+0.1404,+0.1627] dz=+7.99 p=1.14e-09 holm=4.46e-08 pw=0.00195
+oof        lptom            vs sim-prior          win    diff=+0.0693 ci=[+0.0607,+0.0779] dz=+4.70 p=1.22e-07 holm=2.69e-06 pw=0.00195
+seen       lptom            vs sim-bpr            win    diff=+0.0379 ci=[+0.0318,+0.0438] dz=+3.70 p=9.59e-07 holm=1.44e-05 pw=0.00195
+unseen     lptom            vs sim-bpr            win    diff=+0.0134 ci=[+0.0113,+0.0155] dz=+3.76 p=8.3e-07 holm=1.34e-05 pw=0.00195
+switch     lptom            vs sim-bpr            win    diff=+0.0283 ci=[+0.0198,+0.0374] dz=+1.89 p=0.000212 holm=0.00233 pw=0.00195
+midswitch  lptom            vs sim-bpr            win    diff=+0.0320 ci=[+0.0276,+0.0365] dz=+4.29 p=2.68e-07 holm=5.09e-06 pw=0.00195
+misleading lptom            vs sim-bpr            win    diff=+0.0361 ci=[+0.0295,+0.0423] dz=+3.34 p=2.25e-06 holm=2.93e-05 pw=0.00195
+oof        lptom            vs sim-bpr            win    diff=+0.0258 ci=[+0.0176,+0.0346] dz=+1.79 p=0.000306 holm=0.00275 pw=0.00195
+switch     lptom            vs lptom-acc          win    diff=+0.0845 ci=[+0.0768,+0.0927] dz=+6.28 p=9.63e-09 holm=2.53e-07 pw=0.00195
+midswitch  lptom            vs lptom-acc          win    diff=+0.0551 ci=[+0.0502,+0.0598] dz=+6.77 p=4.95e-09 holm=1.53e-07 pw=0.00195
+seen       lptom            vs lptom-acc          win    diff=-0.0050 ci=[-0.0096,-0.0002] dz=-0.62 p=0.0811 holm=0.487 pw=0.0664
+switch     lptom            vs lptom-const        win    diff=+0.0163 ci=[+0.0065,+0.0268] dz=+0.96 p=0.0144 holm=0.115 pw=0.0195
+seen       lptom            vs lptom-const        win    diff=-0.0032 ci=[-0.0082,+0.0013] dz=-0.40 p=0.243 holm=1 pw=0.391
+switch     lptom            vs lptom-single       win    diff=+0.0017 ci=[-0.0060,+0.0108] dz=+0.11 p=0.726 holm=1 pw=1
+seen       lptom            vs lptom-single       win    diff=-0.0025 ci=[-0.0075,+0.0030] dz=-0.28 p=0.404 holm=1 pw=0.389
+seen       lptom            vs lptom-amortised    win    diff=+0.0839 ci=[+0.0775,+0.0906] dz=+7.43 p=2.18e-09 holm=7.84e-08 pw=0.00195
+seen       lptom            vs lptom-structured   win    diff=-0.0048 ci=[-0.0084,-0.0011] dz=-0.77 p=0.0369 holm=0.259 pw=0.0273
+oof        lptom            vs lptom-noresid      win    diff=+0.0169 ci=[+0.0114,+0.0222] dz=+1.83 p=0.000268 holm=0.00268 pw=0.00195
+seen       lptom            vs lptom-noresid      win    diff=-0.0029 ci=[-0.0074,+0.0013] dz=-0.38 p=0.255 holm=1 pw=0.51
+seen       lptom            vs lptom-nolang       regret diff=-0.0656 ci=[-0.0819,-0.0488] dz=-2.33 p=4.27e-05 holm=0.000512 pw=0.00195
+misleading lptom            vs lptom-nolang       regret diff=+0.0028 ci=[-0.0150,+0.0203] dz=+0.09 p=0.777 holm=1 pw=0.695
+robust     lptom|mm-moderate vs sim-prior|mm-moderate win    diff=+0.1112 ci=[+0.1019,+0.1206] dz=+6.97 p=3.85e-09 holm=1.23e-07 pw=0.00195
+robust     lptom|mm-strong  vs sim-prior|mm-strong win    diff=+0.0935 ci=[+0.0862,+0.1012] dz=+7.27 p=2.66e-09 holm=9.04e-08 pw=0.00195
+robust     lptom|noise1     vs agnosticQ|noise1   win    diff=+0.0893 ci=[+0.0821,+0.0964] dz=+7.34 p=2.44e-09 holm=8.55e-08 pw=0.00195
+robust     lptom|noise2     vs agnosticQ|noise2   win    diff=+0.0616 ci=[+0.0533,+0.0695] dz=+4.49 p=1.82e-07 holm=3.83e-06 pw=0.00195
+robust     lptom|noise1     vs ppo|noise1         win    diff=+0.0658 ci=[+0.0586,+0.0725] dz=+5.56 p=2.8e-08 holm=6.72e-07 pw=0.00195
+robust     lptom|noise2     vs ppo|noise2         win    diff=+0.0409 ci=[+0.0358,+0.0472] dz=+4.19 p=3.31e-07 holm=5.96e-06 pw=0.00195

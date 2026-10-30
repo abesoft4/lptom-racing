@@ -1,0 +1,5 @@
+# Versions used for the paper's run. Newer versions also work. Results then agree
+# statistically, but single races may differ in the last floating-point digits.
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2

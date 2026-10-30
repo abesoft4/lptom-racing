@@ -1,0 +1,71 @@
+[seed 304] collected 3000 races 96 s
+[seed 304] PPO it 0 train win 0.441 2s
+[seed 304] PPO it 25 train win 0.787 53s
+[seed 304] PPO it 50 train win 0.799 103s
+[seed 304] PPO it 75 train win 0.792 152s
+[seed 304] PPO it 100 train win 0.777 203s
+[seed 304] PPO it 125 train win 0.799 253s
+[seed 304] PPO it 150 train win 0.819 303s
+[seed 304] PPO it 175 train win 0.809 355s
+[seed 304] PPO it 200 train win 0.809 404s
+[seed 304] PPO it 225 train win 0.836 449s
+[seed 304] PPO it 250 train win 0.816 500s
+[seed 304] PPO it 275 train win 0.825 548s
+[seed 304] PPO it 299 train win 0.812 593s
+[seed 304] trained 1170 s
+[seed 304] tau 0.458
+[seed 304] seen       random          0.497 0.397 0.483 0.423
+[seed 304] seen       rule            0.663 0.630 0.580 0.610
+[seed 304] seen       agnosticQ       0.857 0.787 0.763 0.760
+[seed 304] seen       ppo             0.810 0.827 0.803 0.807
+[seed 304] seen       liam            0.813 0.767 0.800 0.793
+[seed 304] seen       gt-maxmin       0.767 0.757 0.723 0.717
+[seed 304] seen       sim-prior       0.767 0.743 0.720 0.733
+[seed 304] seen       sim-bpr         0.883 0.870 0.843 0.847
+[seed 304] seen       lptom           0.900 0.920 0.893 0.863
+[seed 304] seen       lptom-structured 0.907 0.917 0.897 0.887
+[seed 304] seen       lptom-nolang    0.893 0.917 0.897 0.873
+[seed 304] seen       lptom-noresid   0.900 0.907 0.897 0.867
+[seed 304] seen       lptom-acc       0.923 0.917 0.903 0.877
+[seed 304] seen       lptom-const     0.920 0.927 0.897 0.897
+[seed 304] seen       lptom-single    0.913 0.927 0.883 0.893
+[seed 304] seen       lptom-amortised 0.870 0.830 0.810 0.797
+[seed 304] seen       oracleQ         0.867 0.823 0.827 0.797
+[seed 304] seen       sim-oracle      0.937 0.910 0.883 0.877
+[seed 304] unseen     random          0.520 0.483 0.470 0.513
+[seed 304] unseen     rule            0.693 0.697 0.687 0.660
+[seed 304] unseen     agnosticQ       0.863 0.853 0.830 0.813
+[seed 304] unseen     ppo             0.867 0.850 0.820 0.863
+[seed 304] unseen     liam            0.897 0.847 0.850 0.823
+[seed 304] unseen     gt-maxmin       0.863 0.880 0.840 0.803
+[seed 304] unseen     sim-prior       0.927 0.900 0.877 0.893
+[seed 304] unseen     sim-bpr         0.923 0.940 0.923 0.897
+[seed 304] unseen     lptom           0.960 0.940 0.933 0.890
+[seed 304] unseen     lptom-structured 0.943 0.950 0.930 0.900
+[seed 304] unseen     lptom-nolang    0.947 0.943 0.937 0.890
+[seed 304] unseen     lptom-noresid   0.943 0.947 0.927 0.910
+[seed 304] unseen     lptom-acc       0.940 0.937 0.927 0.900
+[seed 304] unseen     lptom-const     0.940 0.947 0.923 0.907
+[seed 304] unseen     lptom-single    0.933 0.940 0.927 0.897
+[seed 304] unseen     lptom-amortised 0.893 0.863 0.847 0.843
+[seed 304] unseen     oracleQ         0.913 0.860 0.880 0.837
+[seed 304] unseen     sim-oracle      0.953 0.953 0.953 0.927
+[seed 304] switch     random          0.453 0.447 0.500 0.407
+[seed 304] switch     rule            0.613 0.610 0.663 0.650
+[seed 304] switch     agnosticQ       0.817 0.780 0.807 0.760
+[seed 304] switch     ppo             0.787 0.767 0.800 0.753
+[seed 304] switch     liam            0.797 0.800 0.800 0.753
+[seed 304] switch     gt-maxmin       0.743 0.730 0.777 0.733
+[seed 304] switch     sim-prior       0.760 0.743 0.737 0.717
+[seed 304] switch     sim-bpr         0.870 0.853 0.853 0.870
+[seed 304] switch     lptom           0.900 0.890 0.853 0.890
+[seed 304] switch     lptom-structured 0.903 0.897 0.883 0.913
+[seed 304] switch     lptom-nolang    0.877 0.883 0.867 0.890
+[seed 304] switch     lptom-noresid   0.903 0.880 0.893 0.903
+[seed 304] switch     lptom-acc       0.887 0.907 0.770 0.837
+[seed 304] switch     lptom-const     0.897 0.903 0.847 0.880
+[seed 304] switch     lptom-single    0.897 0.900 0.857 0.903
+[seed 304] switch     lptom-amortised 0.837 0.790 0.790 0.780
+[seed 304] switch     oracleQ         0.837 0.803 0.843 0.793
+[seed 304] switch     sim-oracle      0.937 0.910 0.913 0.923
+[seed 304] done 4482 s

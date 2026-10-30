@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code or the benchmark rivals, please cite the paper."
+title: "LP-ToM: Language-Primed Simulation Theory of Mind for Adaptive Head-to-Head Autonomous Racing"
+authors:
+  - family-names: "Workneh"
+    given-names: "Abebaw Degu"
+version: "1.0.0"
+date-released: "2026-10-30"
+license: MIT
+repository-code: "https://github.com/abesoft4/lptom-racing"

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+results_mine/
+results_quick/
+results_test/
+*.aux
+*.log
+*.out
+*.blg
+.DS_Store
+*.png
+*.gif

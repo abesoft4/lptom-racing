@@ -1,0 +1,71 @@
+[seed 305] collected 3000 races 60 s
+[seed 305] PPO it 0 train win 0.460 1s
+[seed 305] PPO it 25 train win 0.747 34s
+[seed 305] PPO it 50 train win 0.802 66s
+[seed 305] PPO it 75 train win 0.801 98s
+[seed 305] PPO it 100 train win 0.804 131s
+[seed 305] PPO it 125 train win 0.812 162s
+[seed 305] PPO it 150 train win 0.842 194s
+[seed 305] PPO it 175 train win 0.827 226s
+[seed 305] PPO it 200 train win 0.796 260s
+[seed 305] PPO it 225 train win 0.827 291s
+[seed 305] PPO it 250 train win 0.825 323s
+[seed 305] PPO it 275 train win 0.829 353s
+[seed 305] PPO it 299 train win 0.816 382s
+[seed 305] trained 745 s
+[seed 305] tau 0.503
+[seed 305] seen       random          0.440 0.470 0.490 0.487
+[seed 305] seen       rule            0.623 0.623 0.670 0.633
+[seed 305] seen       agnosticQ       0.770 0.783 0.827 0.823
+[seed 305] seen       ppo             0.757 0.793 0.823 0.847
+[seed 305] seen       liam            0.757 0.797 0.847 0.810
+[seed 305] seen       gt-maxmin       0.687 0.707 0.730 0.763
+[seed 305] seen       sim-prior       0.697 0.700 0.760 0.747
+[seed 305] seen       sim-bpr         0.833 0.863 0.867 0.873
+[seed 305] seen       lptom           0.890 0.903 0.907 0.917
+[seed 305] seen       lptom-structured 0.890 0.927 0.913 0.930
+[seed 305] seen       lptom-nolang    0.867 0.910 0.913 0.923
+[seed 305] seen       lptom-noresid   0.887 0.930 0.923 0.933
+[seed 305] seen       lptom-acc       0.877 0.910 0.923 0.927
+[seed 305] seen       lptom-const     0.880 0.903 0.930 0.923
+[seed 305] seen       lptom-single    0.880 0.917 0.920 0.910
+[seed 305] seen       lptom-amortised 0.770 0.823 0.830 0.823
+[seed 305] seen       oracleQ         0.763 0.817 0.817 0.813
+[seed 305] seen       sim-oracle      0.887 0.910 0.897 0.927
+[seed 305] unseen     random          0.480 0.530 0.493 0.510
+[seed 305] unseen     rule            0.663 0.673 0.743 0.710
+[seed 305] unseen     agnosticQ       0.817 0.823 0.850 0.890
+[seed 305] unseen     ppo             0.833 0.837 0.867 0.913
+[seed 305] unseen     liam            0.833 0.853 0.893 0.880
+[seed 305] unseen     gt-maxmin       0.873 0.880 0.913 0.887
+[seed 305] unseen     sim-prior       0.900 0.900 0.923 0.907
+[seed 305] unseen     sim-bpr         0.903 0.917 0.933 0.917
+[seed 305] unseen     lptom           0.913 0.917 0.960 0.953
+[seed 305] unseen     lptom-structured 0.913 0.930 0.950 0.927
+[seed 305] unseen     lptom-nolang    0.923 0.923 0.960 0.940
+[seed 305] unseen     lptom-noresid   0.910 0.920 0.950 0.930
+[seed 305] unseen     lptom-acc       0.930 0.913 0.953 0.937
+[seed 305] unseen     lptom-const     0.923 0.930 0.950 0.940
+[seed 305] unseen     lptom-single    0.933 0.927 0.947 0.943
+[seed 305] unseen     lptom-amortised 0.837 0.810 0.833 0.907
+[seed 305] unseen     oracleQ         0.850 0.827 0.863 0.907
+[seed 305] unseen     sim-oracle      0.930 0.930 0.957 0.937
+[seed 305] switch     random          0.420 0.470 0.470 0.487
+[seed 305] switch     rule            0.597 0.630 0.653 0.687
+[seed 305] switch     agnosticQ       0.750 0.773 0.827 0.813
+[seed 305] switch     ppo             0.767 0.800 0.807 0.803
+[seed 305] switch     liam            0.757 0.780 0.787 0.817
+[seed 305] switch     gt-maxmin       0.737 0.733 0.763 0.753
+[seed 305] switch     sim-prior       0.713 0.780 0.733 0.770
+[seed 305] switch     sim-bpr         0.857 0.863 0.877 0.880
+[seed 305] switch     lptom           0.860 0.893 0.860 0.907
+[seed 305] switch     lptom-structured 0.860 0.900 0.853 0.920
+[seed 305] switch     lptom-nolang    0.870 0.907 0.853 0.910
+[seed 305] switch     lptom-noresid   0.870 0.917 0.857 0.910
+[seed 305] switch     lptom-acc       0.877 0.913 0.760 0.857
+[seed 305] switch     lptom-const     0.877 0.900 0.850 0.900
+[seed 305] switch     lptom-single    0.870 0.910 0.883 0.907
+[seed 305] switch     lptom-amortised 0.757 0.800 0.830 0.843
+[seed 305] switch     oracleQ         0.777 0.803 0.867 0.833
+[seed 305] switch     sim-oracle      0.887 0.903 0.907 0.913
+[seed 305] done 3795 s
